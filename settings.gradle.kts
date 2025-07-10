@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "NewsAggregatorClean"
 include(":app")
- 
+include(":domain")
+include(":data")
