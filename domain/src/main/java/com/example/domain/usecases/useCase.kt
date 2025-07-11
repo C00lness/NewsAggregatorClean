@@ -1,4 +1,7 @@
 package com.example.domain.usecases
 
-class useCase {
+import com.example.domain.repositories.Repository
+
+class useCase(private val repository: Repository) {
+    fun getNews() = repository.getNews()
 }

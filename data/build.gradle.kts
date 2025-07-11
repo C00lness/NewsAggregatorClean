@@ -40,4 +40,12 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    implementation(libs.core)
+    implementation(libs.serialization)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+
+    implementation(project(":domain"))
 }
